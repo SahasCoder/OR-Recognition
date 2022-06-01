@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            OR Recognition -- Object on video
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://i.pinimg.com/originals/4c/ac/d3/4cacd35ce1b1e50b26d1d9d284593653.jpg">
+    </head>
+    <body class="advVideoRecogBody">
+        <div class="divBack"><button class="btn btn-danger" onclick="Goback()">Back</button></div>
+        <center>
+            <h1 class="btn btn-default header">OR Recognition <br>
+                <span class="btn btn-info subHeader">Object on video</span>
+            </h1>
+            <h3>Object name: <input placeholder="Object name here" type="text" id="objectNameInput"></h3>
+            <br>
+            <br>
+            <button class="btn btn-success BtnStart" onclick="startRecog()">Start</button>
+            <br>
+            <div class="divFlex">
+            <h3 id="status">Status: </h3>&nbsp;&nbsp;&nbsp;&nbsp;<h3 id="number_of_objects" class="btn btn-primary">Number of objects: </h3>
+            </div>
+            <br>
+            <h3 class="btn btn-info objtar" id="objectTargetView">//object//</h3>
+        </center>
+
+        <script src="videorecognition.js"></script>
+    </body>
+</html>

@@ -1,0 +1,150 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4mvawdluM4PhZwDjIO6hbntyiDdvv_y17A&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.btnMain{
+    font-size: 30px !important;
+    border-radius: 20px !important;
+    width: 50%;
+    font-weight: bold !important;
+}
+
+.Iheader{
+    width: 100%;
+    padding: 10px !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin: 0;
+}
+
+.subHeader{
+    font-size: large !important;
+    font-weight: bold !important;
+    padding: 5px !important;
+}
+
+#status{
+    background-color: goldenrod;
+    padding: 15px;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+canvas{
+    margin-top: 320px;
+    border-radius: 20px;
+    border-color: white;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas{
+    from{
+        box-shadow: 2px 2px 55px yellow;
+    }
+    to{
+        box-shadow: 2px 2px 55px aqua;
+    }
+}
+
+.topicBody{
+    background-image: url(https://miro.medium.com/max/1400/1*VluiXEpyenaqzuBkhtY3iA.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.divBack{
+    float: left;
+}
+
+.footerDeveloper{
+    margin: 0px;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.607);
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+}
+
+.footerDeveloper a{
+    color: blue;
+}
+
+.advDiv{
+    background-color: rgba(0, 255, 38, 0.587);
+    padding: 20px;
+    width: 63%;
+    border-radius: 20px;
+}
+
+.advDiv p{
+    width: 500px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+
+.VideoBtn{
+    font-size: 30px !important;
+    border-radius: 20px !important;
+    width: 50%;
+    font-weight: bold !important;
+}
+
+.advSpan{
+    font-size: 15px;
+    border-radius: 30px !important;
+    font-weight: bold !important;
+    margin-right: 50px;
+}
+
+.advVideoRecogBody{
+    background-image: url(https://i.pinimg.com/736x/2e/57/1c/2e571c17711c2de10d5ab4d2e213e0e6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.BtnStart{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.divFlex{
+    display: flex;
+    margin-left: 40%;
+}
+
+#number_of_objects{
+    height: fit-content;
+    padding: 15px;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    font-size: large !important;
+    border-radius: 20px;
+}
+
+.objtar{
+    font-size: large !important;
+    height: fit-content;
+}
