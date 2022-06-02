@@ -41,9 +41,17 @@ function draw(){
 
             if(objects[i].label == ObjectTargetLabel){
                 document.getElementById("objectTargetView").innerHTML = "Targeted object found";
+                                synth = window.speechSynthesis;
+                speak_data = "Targeted object found";
+                utterThis = new SpeechSynthesisUtterance(speak_data);
+                synth.speak(utterThis);
             }
             else{
                 document.getElementById("objectTargetView").innerHTML = "Targeted object not found";
+                                synth = window.speechSynthesis;
+                speak_data = "Targeted object not found";
+                utterThis = new SpeechSynthesisUtterance(speak_data);
+                synth.speak(utterThis);
             }
         }
     }
